@@ -4,3 +4,4 @@ jupyter:
      - "8888:8888"
    volumes:
      - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py

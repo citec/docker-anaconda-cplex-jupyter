@@ -191,7 +191,7 @@
 #    from notebook.auth import passwd; passwd()
 #
 #  The string should be of the form type:salt:hashed-password.
-c.NotebookApp.password = 'sha1:38d20676b1e0:1693255337ac3a4644703b497786b84746042873'
+c.NotebookApp.password = 'sha1:9967a4110cb0:f16a21cbfb5d278125dec8ea99aaebdf9aaa9d3e'
 
 ## The port the notebook server will listen on.
 #c.NotebookApp.port = 8888

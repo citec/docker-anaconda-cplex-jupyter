@@ -1,7 +1,140 @@
-jupyter:
+jupyter01:
    build: .
    ports:
-     - "8888:8888"
+     - "8801:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter02:
+   build: .
+   ports:
+     - "8802:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter03:
+   build: .
+   ports:
+     - "8803:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter04:
+   build: .
+   ports:
+     - "8804:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter05:
+   build: .
+   ports:
+     - "8805:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter06:
+   build: .
+   ports:
+     - "8806:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter07:
+   build: .
+   ports:
+     - "8807:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter08:
+   build: .
+   ports:
+     - "8808:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter09:
+   build: .
+   ports:
+     - "8809:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter10:
+   build: .
+   ports:
+     - "8810:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter11:
+   build: .
+   ports:
+     - "8811:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter12:
+   build: .
+   ports:
+     - "8812:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter13:
+   build: .
+   ports:
+     - "8813:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter14:
+   build: .
+   ports:
+     - "8814:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter15:
+   build: .
+   ports:
+     - "8815:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter16:
+   build: .
+   ports:
+     - "8816:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter17:
+   build: .
+   ports:
+     - "8817:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter18:
+   build: .
+   ports:
+     - "8818:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter19:
+   build: .
+   ports:
+     - "8819:8888"
+   volumes:
+     - ./notebooks:/opt/notebooks
+     - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+jupyter20:
+   build: .
+   ports:
+     - "8820:8888"
    volumes:
      - ./notebooks:/opt/notebooks
      - ./setupfiles/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
